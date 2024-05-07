@@ -1,0 +1,21 @@
+{
+    "LoginButton": {
+        "On": "Log in",
+        "Off": "Hello"
+    },
+    "username": {
+        "input": "[tabindex='1']",
+        "data": {
+            "valid": "NicoTest",
+            "invalid": ""
+        }
+    },
+    "password": {
+        "input": "[tabindex='2']",
+        "data": {
+            "valid": "secret_password",
+            "invalid": ""
+        }
+    },
+    "submitbutton": "[tabindex='3']"
+}
