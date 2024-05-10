@@ -1,3 +1,6 @@
+import 'cypress-mochawesome-reporter/register';
+
+
 describe('TC Hard Code - Login', () => 
 {
     beforeEach('Visitar la pagina de Login',() => {

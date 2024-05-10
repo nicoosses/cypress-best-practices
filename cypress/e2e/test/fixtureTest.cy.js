@@ -1,4 +1,7 @@
-describe('TC Fixtire - Login', () => 
+import 'cypress-mochawesome-reporter/register';
+
+
+describe('TC Fixture - Login', () => 
     {
         beforeEach('Visitar la pagina de Login',() => {
             cy.visit("https://demo.testim.io")

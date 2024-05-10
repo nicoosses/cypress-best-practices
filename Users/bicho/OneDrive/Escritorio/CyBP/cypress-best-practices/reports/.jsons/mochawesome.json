@@ -1,0 +1,113 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-05-10T18:10:11.271Z",
+    "end": "2024-05-10T18:10:13.233Z",
+    "duration": 1962,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "df683980-bd21-4435-beac-42df1deb8de9",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test\\commandtest.cy.js",
+      "file": "cypress\\e2e\\test\\commandtest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ee64e314-0d95-4216-947b-2ad7d4f5228c",
+          "title": "TC Fixtire - Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC1: Login Succesfully",
+              "fullTitle": "TC Fixtire - Login TC1: Login Succesfully",
+              "timedOut": null,
+              "duration": 1925,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "4f29b36a-3229-4853-8c10-9ae126f79c91",
+              "parentUUID": "ee64e314-0d95-4216-947b-2ad7d4f5228c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4f29b36a-3229-4853-8c10-9ae126f79c91"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1925,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "mochafile": "reports/test-results.xml",
+        "toConsole": true,
+        "outputs": true,
+        "reportDir": "C:Users\\bicho\\OneDrive\\Escritorio\\CyBP\\cypress-best-practices\\reports\\.jsons",
+        "charts": true,
+        "reportPageTitle": "Reporte de Tests",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
