@@ -5,7 +5,7 @@ describe('TC Fixtire - Login', () =>
     {
         beforeEach('Visitar la pagina de Login',() => 
         {
-            cy.gotoLogin(string)
+            cy.gotoLogin()
             //cy.SignIn()
             cy.customSignIn("Monito","3000")
         })
