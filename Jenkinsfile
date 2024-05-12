@@ -14,7 +14,7 @@ pipeline {
 
     stage('Msg Final') {
       steps {
-        echo 'Se terminó el test'
+        echo 'Se terminï¿½ el test'
       }
     }
 
