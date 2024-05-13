@@ -1,4 +1,4 @@
-This is a DEMO project.
+This is a DEMO project. Don't expect a HUGE project. I focused on simple actions, and they are working properly. Of course this is work in progress.
 
 Topics used: 
 
